@@ -24,9 +24,11 @@ case $OP in
     # TODO: Add missing cases for multiplication (\*) and division (/).
     # Follow the same syntax as addition (+) and subtraction (-) above!
     
-    *)
+    \*)
         echo "$NUM1 * $NUM2 = $((NUM1 * NUM2))"
         ;;
+        
+
     /)
         echo "$NUM1 / $NUM2 = $((NUM1 / NUM2))"
         ;;
