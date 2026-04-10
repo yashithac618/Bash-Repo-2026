@@ -25,8 +25,9 @@ case $OP in
     # Follow the same syntax as addition (+) and subtraction (-) above!
     
     *)
-        echo "Unknown operator: $OP"
-        echo "Supported operators: +, -, *, /"
-        exit 1
+        echo "$NUM1 * $NUM2 = $((NUM1 * NUM2))"
+        ;;
+    /)
+        echo "$NUM1 / $NUM2 = $((NUM1 / NUM2))"
         ;;
 esac
