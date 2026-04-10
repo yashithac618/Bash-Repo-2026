@@ -27,9 +27,14 @@ case $OP in
     \*)
         echo "$NUM1 * $NUM2 = $((NUM1 * NUM2))"
         ;;
-        
+
 
     /)
         echo "$NUM1 / $NUM2 = $((NUM1 / NUM2))"
+        ;;
+    *)
+        echo "Unknown operator: $OP"
+        echo "Supported operators: +, -, *, /"
+        exit 1
         ;;
 esac
